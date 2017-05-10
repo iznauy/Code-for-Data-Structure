@@ -1,5 +1,5 @@
 # if we use a list contained 3 elements as BinTree:
-# so, we can definate some useful methods
+# so, we can define some useful methods
 def BinTree(data, left=None, right=None):
     return [data, left, right]
 
