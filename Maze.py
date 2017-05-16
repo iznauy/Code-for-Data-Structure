@@ -1,6 +1,6 @@
 from __future__ import print_function
 from Stack import *
-from Queue import *
+from MyQueue import *
 
 
 dirs = [(0, 1), (1, 0), (0, -1), (-1, 0)]

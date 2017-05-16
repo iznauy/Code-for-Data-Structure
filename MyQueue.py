@@ -17,7 +17,7 @@ class SQueue(object):
         return self._elem[self._head]
 
     def dequeue(self):
-        if is_empty():
+        if self.is_empty():
             raise QueueUnderflow
         e = self._elem[self._head]
         self._head = (self._head + 1) % self._len
