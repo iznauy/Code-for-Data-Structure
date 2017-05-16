@@ -1,4 +1,4 @@
-from MyStack import SStack
+from Stack import SStack
 
 class BinTNode(object):
     def __init__(self, data, left=None, right=None):
